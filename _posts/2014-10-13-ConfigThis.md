@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ConfigThis &amp; ConfigMake
+title: ConfigMake &amp; ConfigThis
 ---
 
 <h2>One-line Explanation</h2>
@@ -17,5 +17,5 @@ title: ConfigThis &amp; ConfigMake
   via symbolic links and <I>echo</I> output to a log file for later review.
   The shell scripts rely on a directory structure intended to group <i>testing</i> and
   <i>reporting</i> programs by <I>project</I>, target <I>platform</I>,
-  and report group <I>version</I>.
+  and group <I>version</I>.
 </p>

@@ -260,8 +260,8 @@ nav
 
   a
   {
+    display: block;
     margin-left: 20px;
-    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -301,7 +301,6 @@ nav
     margin: 1.8rem .8rem;
     border-left: 2px solid $gray;
     padding: 0.1rem 1rem;
-    color: $gray;
     font-size: 1.0rem;
     font-style: italic;
   }
