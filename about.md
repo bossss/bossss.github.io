@@ -8,11 +8,11 @@ Getting Your job done efficiently and seemlessly across multiple applications
 
 ### Mission
 
-Provide software solutions and support services for individuals and businesses.
+- Provide software solutions and support services for individuals and businesses.
 
-Employ Free and Open-Source Software
+- Employ Free and Open-Source Software (FOSS)
 
-Keep it simple using a LAMP stack (+/- nginx, xml, p=PHP).
+- Keep it simple using a LAMP stack (+/- nginx, xml, p=PHP).
 
-Make it mobile.
+- Make it mobile.
 
