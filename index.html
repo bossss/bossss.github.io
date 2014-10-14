@@ -4,15 +4,25 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <article class="post">
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">... article</a>
+    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+    {% if day != nday %}
+    <h5 class="date">{{ post.date | date: "%A, %B %e, %Y" }}</h5>
+    {% endif %}
+    {{ post.content }}
+    <hr>
+
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div class="entry">
+      {{ post.content | truncatewords:40}}
+    </div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">... article</a>
+
     </article>
   {% endfor %}
 </div>
