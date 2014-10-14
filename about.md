@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Getting Your job done efficiently and seemlessly across multiple applications
 
-### More Information
+### Mission
 
-A place to include any other types of information that you'd like to include about yourself. 
+Provide software solutions and support services for individuals and businesses.
 
-### Contact me
+Employ Free and Open-Source Software - primarily in a LAMP stack (+/- nginx, xml, p=PHP).
 
-[email@domain.com](mailto:email@domain.com)
+Make it mobile.
+
