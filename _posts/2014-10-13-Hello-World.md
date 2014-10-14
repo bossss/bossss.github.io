@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Business Operations Software Solutions & Support Services
+title: BOSSS you FOSS
 ---
 
 Greetings !
