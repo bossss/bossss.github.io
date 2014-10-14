@@ -56,7 +56,6 @@ h1, h2, h3, h4, h5, h6
 h1
 {
   font-size: 1.5rem;
-  margin-top:    15px;
   margin-bottom: 15px;
   a
   {
@@ -217,7 +216,9 @@ img
 
 .site-info
 {
-  float: left;
+  height:2rem;
+
+  float: right;
 
   @include mobile
   {
@@ -229,13 +230,18 @@ img
 
 .site-name
 {
-  font-family: $helveticaNeue;
+  margin: 0px;
+  height:                   2rem ;
+  line-height:              2rem ;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
 .site-description
 {
+  text-align:center;
+  padding-top: 10px;
   font-size: 1.0rem;
 
   @include mobile
@@ -246,30 +252,33 @@ img
 
 nav
 {
-  float: right;
-  display: block;
-  font-family: $helveticaNeue;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
-
-  @include mobile
-  {
-    float: none;
-    margin-top: 9px;
-    font-size: 0.9rem;
+  display:          inline-block ;
+  float:                   right ;
+  overflow:               hidden ;
+  height:                   2rem ;
+  line-height:              2rem ;
+  text-align:              right ;
   }
-
-  a
+  @media screen and (max-width: 640px)
   {
-    display: block;
-    margin-left: 20px;
-    text-align: right;
+    nav
+    {
+      float: none;
+      margin-top: 9px;
+      font-size: 0.9rem;
+    }
+  }
+  nav a {
+    margin-left: 10px;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile
-    {
-      margin: 0 10px;
-      color: $blue;
+    }
+    @media screen and (max-width: 640px) {
+    nav a {
+      color: #4183C4;
     }
   }
 }
