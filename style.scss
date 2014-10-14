@@ -247,7 +247,7 @@ img
 nav
 {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  display: block;
   font-family: $helveticaNeue;
   font-size: 0.9rem;
 
@@ -255,7 +255,6 @@ nav
   {
     float: none;
     margin-top: 9px;
-    display: block;
     font-size: 0.9rem;
   }
 
