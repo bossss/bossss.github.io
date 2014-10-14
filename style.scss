@@ -32,36 +32,36 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #800020;
   font-weight: bold;
   
-  line-height: 1.7;
+  line-height: 1.5rem;
   margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.3rem;
   }
 }
   
 h1 {  
-  font-size: 30px;
+  font-size: 1.5rem;
   a {
     color: inherit;
   }
 }
 
 h2 {  
-  font-size: 24px;
+  font-size: 1.3rem;
 }
 
 h3 {  
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 h4 {  
-  font-size: 18px;
-  color: $gray;
+  font-size: 1.0rem;
+  color: #800020;
 }
 
 p {
@@ -112,7 +112,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #800020;
 }
 
 // Specify the color of the selection
@@ -191,14 +191,14 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue; 
   font-weight: 300;
-  font-size: 28px;
+  font-size: 1.3rem;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 1.0rem;
   
   @include mobile {
     margin: 3px 0;
@@ -209,13 +209,13 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
-  font-size: 18px;
+  font-size: 0.9rem;
   
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 0.9rem;
   }
 
   a {
@@ -237,22 +237,22 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
   border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
   border-bottom: none;
 }
 
 .post { 
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.8rem .8rem;
     border-left: 2px solid $gray;
-    padding: 0.1em 1em;
+    padding: 0.1rem 1rem;
     color: $gray;
-    font-size: 22px;
+    font-size: 1.0rem;
     font-style: italic;
   }
 
@@ -261,8 +261,8 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    font-style: italic;
+    font-size: 0.9rem;
   }
 }
 
