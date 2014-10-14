@@ -279,7 +279,7 @@ nav
 
 .posts > .post
 {
-  padding-bottom: 2rem;
+  padding-bottom: 2.0rem;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -291,6 +291,10 @@ nav
 
 .post
 {
+  p
+  {
+    line-height:    1.2rem;
+  }
   blockquote
   {
     margin: 1.8rem .8rem;
