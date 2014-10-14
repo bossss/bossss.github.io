@@ -13,115 +13,139 @@
 /* BASE RULES */
 /**************/
 
-html {
+html
+{
   font-size: 100%;
 }
 
-body {
-	background: #EEE8AA;
+body
+{
+  background: #EEE8AA;
   font-family: $helvetica;
   color: #800020;
 }
 
-.container {
+.container
+{
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6
+{
   font-family: $helveticaNeue;
   color: #800020;
   font-weight: bold;
-  
+
   line-height: 1.6rem;
   margin: 1em 0 15px;
   padding: 0;
 
-  @include mobile {
+  @include mobile
+  {
     line-height: 1.3rem;
   }
 }
-  
-h1 {  
+
+h1
+{
   font-size: 1.5rem;
   margin-bottom:15px;
-  a {
+  a
+  {
     color: inherit;
   }
 }
 
-h2 {  
+h2
+{
   font-size: 1.3rem;
 }
 
-h3 {  
+h3
+{
   font-size: 1.1rem;
 }
 
-h4 {  
+h4
+{
   font-size: 1.0rem;
   color: #800020;
 }
 
-p {
+p
+{
   margin: 15px 0;
 }
 
-a {
+a
+{
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+  &:hover, &:active
+  {
     color: $blue;
   }
 }
 
-ul, ol {
+ul, ol
+{
   margin: 15px 0;
   padding-left: 30px;
 }
 
-ul {
+ul
+{
   list-style-type: disc;
 }
 
-ol {
+ol
+{
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul, ul ol, ul ul, ol ol
+{
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul, ol ul
+{
   list-style-type: circle;
 }
 
-em, i {
+em, i
+{
   font-style: italic;
 }
 
-strong, b {
+strong, b
+{
   font-weight: bold;
 }
 
-img {
+img
+{
   max-width: 100%;
 }
 
-.date {
+.date
+{
   font-style: italic;
   color: #800020;
 }
 
 // Specify the color of the selection
-::-moz-selection {
+::-moz-selection
+{
   color: $black;
   background: $lightGray;
 }
-::selection {
+::selection
+{
   color: $black;
   background: $lightGray;
 }
@@ -129,12 +153,14 @@ img {
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
-.clearfix:after {
+.clearfix:after
+{
     content: " ";
     display: table;
 }
 
-.clearfix:after {
+.clearfix:after
+{
     clear: both;
 }
 
@@ -146,87 +172,102 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
+.wrapper-masthead
+{
   margin-bottom: 50px;
 }
 
-.masthead {
+.masthead
+{
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  
-  @include mobile {
+
+  @include mobile
+  {
     text-align: center;
   }
 }
 
-.site-avatar {
+.site-avatar
+{
   float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
 
-  @include mobile {
+  @include mobile
+  {
     float: none;
     display: block;
     margin: 0 auto;
   }
 
-  img {
+  img
+  {
     border-radius: 5px;
   }
 }
 
-.site-info {
+.site-info
+{
   float: left;
 
-  @include mobile {
+  @include mobile
+  {
     float: none;
     display: block;
     margin: 0 auto;
   }
 }
 
-.site-name {
+.site-name
+{
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
 
-.site-description {
+.site-description
+{
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 1.0rem;
-  
-  @include mobile {
+
+  @include mobile
+  {
     margin: 3px 0;
   }
 }
 
-nav {
+nav
+{
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-size: 0.9rem;
-  
-  @include mobile {
+
+  @include mobile
+  {
     float: none;
     margin-top: 9px;
     display: block;
     font-size: 0.9rem;
   }
 
-  a {
+  a
+  {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
-    @include mobile {
+    @include mobile
+    {
       margin: 0 10px;
       color: $blue;
     }
@@ -237,18 +278,22 @@ nav {
 // .main
 //
 
-.posts > .post {
+.posts > .post
+{
   padding-bottom: 2rem;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+.posts > .post:last-child
+{
   padding-bottom: 1rem;
   border-bottom: none;
 }
 
-.post { 
-  blockquote {
+.post
+{
+  blockquote
+  {
     margin: 1.8rem .8rem;
     border-left: 2px solid $gray;
     padding: 0.1rem 1rem;
@@ -257,28 +302,33 @@ nav {
     font-style: italic;
   }
 
-  .comments {
+  .comments
+  {
     margin-top: 10px;
   }
 
-  .read-more {
+  .read-more
+  {
     font-style: italic;
     font-size: 0.9rem;
   }
 }
 
-.wrapper-footer {
+.wrapper-footer
+{
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
-myfooter {
+myfooter
+{
   margin-top: 2rem;
 }
 
-footer {
+footer
+{
   padding: 20px 0;
   text-align: center;
 }
