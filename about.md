@@ -12,7 +12,7 @@ Getting Your job done efficiently and seemlessly across multiple applications
 
 - Employ Free and Open-Source Software (FOSS)
 
-- Keep it simple using a LAMP stack (+/- nginx, xml, p=PHP).
+- Keep it simple using a LAMP stack (+/- nginx, XML, p=PHP).
 
 - Make it mobile.
 
