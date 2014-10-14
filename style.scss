@@ -227,19 +227,13 @@ img
 
 .site-name
 {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 1.3rem;
   letter-spacing: 1px;
 }
 
 .site-description
 {
-  margin: -5px 0 0 0;
-  color: $gray;
   font-size: 1.0rem;
 
   @include mobile
@@ -327,7 +321,7 @@ nav
   background-color: $lightGray;
 }
 
-myfooter
+.myfooter
 {
   margin-top: 2rem;
 }
