@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BOSSS your FOSS
+title: BOSSSS your FOSS
 ---
 
 Greetings !
